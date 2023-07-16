@@ -9,23 +9,23 @@ export default function App() {
             <span>123.2213</span>
           </div>
           <div>
-            <p>Latitude</p>
+            <p>Longitude</p>
             <span>123.2213</span>
           </div>
           <div>
-            <p>Latitude</p>
+            <p>Altitude</p>
             <span>123.2213</span>
           </div>
           <div>
-            <p>Latitude</p>
+            <p>Units</p>
             <span>123.2213</span>
           </div>
           <div>
-            <p>Latitude</p>
+            <p>Velocity</p>
             <span>123.2213</span>
           </div>
           <div>
-            <p>Latitude</p>
+            <p>Visibility</p>
             <span>123.2213</span>
           </div>
         </div>
