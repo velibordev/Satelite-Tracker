@@ -3,18 +3,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Ysabeau SC", sans-serif;
+}
+*::selection {
+  background-color: #ffff3f;
+  color: black;
 }
 body {
-  background-color: #1a1a19;
+  background-color: #007f5f;
 }
 .container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 800px;
-  height: 650px;
-  background-color: #181e27;
+  width: 400px;
+  background-color: #2b9348;
+  border: 2px solid black;
   padding: 20px;
   text-align: center;
   border-radius: 50px;
@@ -24,27 +29,47 @@ body {
   flex-direction: column;
 }
 .header_text {
-  font-family: "Ysabeau SC", sans-serif;
-  color: white;
   font-weight: bold;
   font-size: 2.5rem;
 }
 .return_data {
-  color: white;
   font-size: 1.3rem;
 }
 .return_data p {
   text-align: left;
   font-family: "Ysabeau SC", sans-serif;
   margin-top: 20px;
+  background-color: #55a630;
+  width: 300px;
+  border-radius: 50px;
+  padding: 10px;
 }
 .refresh_btn {
-  padding: 10px;
+  width: 300px;
+  padding: 20px;
   cursor: pointer;
-  background-color: #181e27;
+  background-color: #55a630;
   font-family: "Ysabeau SC", sans-serif;
-  border: 1px solid gray;
+  border: 1px solid;
   border-radius: 20px;
-  color: gray;
+  color: black;
+  font-size: 1.2rem;
   font-weight: bold;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+.refresh_btn:hover {
+  background-color: #d4d700;
+}
+@media (max-width: 420px) {
+  .container {
+    width: 280px;
+  }
+  .refresh_btn {
+    width: 250px;
+  }
+  .return_data p {
+    width: 250px;
+    text-align: center;
+  }
 }
